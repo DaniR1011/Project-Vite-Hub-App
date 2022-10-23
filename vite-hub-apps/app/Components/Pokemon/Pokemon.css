@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 345px;
+    height: 490px;
+    border: 5px solid black;
+    background-color: rgb(181, 177, 177);
+    margin-top: 10px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 6px;
+    font-size: 70px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+figure > img{
+    width: 400px;
+    height: 300px;
+}
+figure > p{
+    font-size: 20px;
+}
+figure > p:hover{
+    color: red;
+}
+figure > h3{
+    font-size: 40px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+figure > h3:hover{
+    font-size: 47px;
+    transition: 0.8s;
+}
+a{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+a:hover{
+    font-size: 28px;
+    transition: 0.8s;
+}
+
+.poke{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+}
+.pokeInput{
+    all: unset;
+    background-color: rgb(181, 177, 177);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center; 
+}
+
+.pokemons > img{
+    width: 200px;
+    height: 100px;
+}
+.pokemons{
+   display: flex;
+   flex-direction: row; 
+   margin-bottom: 15px;
+    gap: 135px;
+}
+
+.select{
+    all: unset;
+    background-color: rgb(181, 177, 177);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+#goBackpokemon{
+    all: unset;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
+.poke > select{
+    all: unset;
+    background-color: rgb(181, 177, 177);
+
+}
+.poke > select > option{
+    display: inline-flex;
+    margin-top: 33px;
+    justify-content: space-around;
+}
+
+.pokemon > img{
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 650px;
+}

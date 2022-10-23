@@ -1,0 +1,60 @@
+.elementos{
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+#goBackhangman{
+  all: unset;
+  font-size: 30px;
+  border: 3px solid black;
+  margin-left: 1200px;
+}
+
+h1{
+  font-size: 100px;
+}
+
+h3{
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.letra{
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin-top: 20px;
+  
+}
+
+.palabra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  color: rgb(95, 95, 209);
+  font-size: 30px;
+}
+
+.abecedario{
+  height: 30px;
+  width: 30px;
+  background-color: rgb(95, 95, 209);
+}
+
+.abecedario:hover{
+  height: 35px;
+  width: 35px;
+  background-color: coral;
+}
+
+.reiniciar{
+  all: unset;
+  font-size: 30px;
+  border: 3px solid black;
+  margin-right: 1200px;
+}

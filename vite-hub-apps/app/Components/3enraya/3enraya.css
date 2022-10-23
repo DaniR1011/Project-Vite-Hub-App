@@ -1,0 +1,41 @@
+/* button{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    font-size: 90px;
+} */
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    font-size: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+}
+
+section > h3{
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+section > h2 {
+   margin-right: 300px;
+   font-size: 40px;
+}
+
+#goBackraya{
+    all: unset;
+    font-size: 30px;
+    margin-left: 1200px;
+    border: 3px solid black;
+}
+
+.raya{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/450/884/43/gigabyte-aorus-logo-pc-gaming-hd-wallpaper-preview.jpg");
+    font-size: 90px;
+}

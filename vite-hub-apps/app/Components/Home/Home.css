@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Hollow";
+    src: url('../Fonts/Pokemon\ Hollow.ttf');
+    font-display: block;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: "Hollow", sans-serif;
+    transition: 0.8 ease-in-out;
+    margin: 10px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h4{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+img{
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+}
+
+.loginInput{
+    all: unset;
+    border: 5px solid black;
+    text-align: center;
+    color: var(white);
+    font-family: "Hollow", sans-serif;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#login{
+    all: unset;
+    font-family: "Hollow", sans-serif;
+    font-size: 2.3rem;
+    background: transparent;
+    margin-top: 15px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#login:hover{
+    transition: 1s ease-in-out;
+    font-size: 3rem;
+}
+
+#colorMode{
+    all: unset;
+    margin-right: 1300px;
+    font-size: 60px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background1: black; 
+  --primary1: red;
+  --primary2: black;
+  --primary3: white;
+}
+
+.black{
+  background-color: black;
+  color: white;
+}
+
+.red{
+    background-color: red;
+    color: black;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
+
+.purple{
+  background-color: purple;
+  color: black;
+}
+
+.pink{
+  background-color: pink;
+  color: black;
+}
+
+.yellow{
+  background-color: yellow;
+  color: black;
+}
+
+.blue{
+  background-color: blue;
+  color: black;
+}
+
+.orange{
+  background-color: orange;
+  color: black;
+}
+
